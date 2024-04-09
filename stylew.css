@@ -1,0 +1,169 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    /* height: 100vw; */
+    /* width: 100vw; */
+    box-sizing: border-box;
+}
+
+/* About Section */
+.logo {
+    height: 5rem;
+    width: 10rem;
+    position: relative;
+    left: -60px;
+    top: 10px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    /* position: sticky; */
+    top: 0;
+
+}
+
+.nav-list {
+    display: flex;
+    justify-content: space-around;
+    gap: 80px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(57, 55, 55);
+    font-weight: 700;
+    padding-right: 10px;
+}
+a:hover {
+    color: rgb(30, 34, 34);
+    border-bottom: 3px solid rgb(106, 101, 102);
+    border-right: 3px solid rgb(106, 101, 102);
+    transition: all 0.1s ease-in;
+}
+li {
+    list-style: none;
+    font-size: 26px;
+    position: relative;
+    left: 20px;
+    top: 55px;
+}
+
+.break-line {
+    height: 1px;
+    width: 96%;
+    top: 100px;
+    background-color: rgb(71, 67, 67);
+    position: absolute;
+}
+
+/* last page */
+
+/* fifith page */
+.last-conatiner {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 300px;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    left: 200px;
+    /* top: 50px; */
+    bottom: 100px;
+    gap: 20px;
+
+}
+
+.contact {
+    position: relative;
+    font-size: 45px;
+    top: 13px;
+    left: -500px;
+
+}
+
+.paraa {
+    font-size: 18px;
+    position: relative;
+    left: -400px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.para_para {
+    width: 60%;
+    position: relative;
+    left: -310px;
+    text-align: justify;
+    font-size: 18px;
+}
+
+.email {
+    position: relative;
+    left: -493px;
+    font-size: 21px;
+    font-weight: bolder;
+    font-style: italic;
+
+}
+
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    top: -50px;
+    right: 100px;
+}
+
+.input {
+    padding: 14px;
+    padding-right: 200px;
+    font-size: 14px;
+    font-weight: 700;
+    color: black;
+    background-color: #eef3cc;
+    border-radius: 10px;
+
+}
+
+
+
+.input-message {
+    padding: 14px;
+    padding-right: 200px;
+    padding-bottom: 150px;
+    font-size: 14px;
+    background-color: #eef3cc;
+    border-radius: 10px;
+    font-weight: 700;
+    color: black;
+}
+
+.submit {
+    position: relative;
+    font-size: 20px;
+    padding: 7px 70px;
+    font-weight: bold;
+    font-style: italic;
+    background-color: rgb(195, 187, 177);
+    border: none;
+    border-radius: 10px;
+    left: 100px;
+}
+
+.last {
+    position: relative;
+    top: 100px;
+    text-align: justify;
+    left: -450px;
+    padding-bottom: 20px;
+}
